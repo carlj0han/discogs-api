@@ -29,6 +29,9 @@ class SearchParameters
 
     /** @var string */
     protected $artist;
+    
+    /** @var string */
+    protected $track;
 
 
     public static function make()
@@ -106,6 +109,13 @@ class SearchParameters
     public function setArtist(string $artist)
     {
         $this->artist = $artist;
+
+        return $this;
+    }
+    
+    public function setTrack(string $track)
+    {
+        $this->track = $track;
 
         return $this;
     }
