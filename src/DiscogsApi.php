@@ -4,6 +4,7 @@ namespace Jolita\DiscogsApi;
 
 use GuzzleHttp\Client;
 use Jolita\DiscogsApi\Exceptions\DiscogsApiException;
+use Illuminate\Support\Arr;
 
 class DiscogsApi
 {
